@@ -1,0 +1,78 @@
+* {
+    padding : 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#navbar {
+    font-family: Playwrite Hrvatska Lijeva;
+}
+
+
+#Hero {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1600032412233-a1fd245d0770?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.normalFont{
+    font-size: 14;
+    font-weight: 400;
+}
+
+.headfont{
+    font-family: Playwrite Hrvatska Lijeva;
+}
+
+.banner{
+    height: 100vh;
+}
+
+.thin{
+    color: rgb(123, 123, 123);
+}
+
+
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.collection-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
