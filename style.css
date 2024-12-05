@@ -1,11 +1,10 @@
 * {
-    padding: 0px;
+    padding : 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body,
-html {
+body, html {
     overflow-x: hidden;
 }
 
@@ -17,107 +16,63 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 .container {
     max-width: 100%;
 }
-
 img {
     max-width: 100%;
     height: auto;
 }
 
 
-
-
-/* for the tagline above navbar */
-
-.tag1 {
-    background-color: #959c8f;
-    color: white;
+#navbar {
+    font-family: Playwrite Hrvatska Lijeva;
 }
 
-.tag2 {
-    background-color: #dddddd;
-    color: rgb(39, 38, 38);
-    font-weight: 500;
-}
 
-.tagfont {
-    font-family: Roboto;
-    font-size: 10px;
-}
-
-/* this is to remove  navbar default padding height */
-.navbar {
-    padding: 0; 
-    height: auto; 
-}
-
-.navbar-brand, .nav-link {
-    padding: 0.5rem 1rem;
-    line-height: 1; 
-}
-
-/* for main  image */
-.bannerImage {
-    height: calc(100vh - 75px);
-    background-image: url("https://adanola.com/cdn/shop/files/FLOW_Top_Banner_-_DESKTOP_2_1600x.png?v=1732807356");
+#Hero {
+    height: 80vh;
+    background-image: url("https://images.unsplash.com/photo-1600032412233-a1fd245d0770?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 
-.bannerImage2 {
-    height: calc(100vh - 75px);
-    background-image: url("https://adanola.com/cdn/shop/files/FLOW_Top_Banner_-_DESKTOP_1600x.png?v=1732807935");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.normalFont{
+    font-size: 14;
+    font-weight: 400;
 }
 
-.header{
-    font-family: Merriweather;
-    font-size: 70px;
+.headfont{
+    font-family: Playwrite Hrvatska Lijeva;
 }
 
-
-
-/* second section */
-
-.pfont{
-    font-family: Roboto;
-    font-size: 30px;
-}
-
-.card-title{
-    font-size: 12px;
-    font-family: inherit;
-}
-
-
-.details-text{
-    font-size: 50px;
-}
-.story{
-    font-size: 14px;
-    font-weight: 500;
-}
-
-
-.last-col1{
+.banner{
     height: 100vh;
-    background-image: url("//adanola.com/cdn/shop/files/Bottom_Desktop_7915ec01-a856-4844-ab02-c94eb29dd72c_717x800_crop_center.png?v=1732808437 1x, //adanola.com/cdn/shop/files/Bottom_Desktop_7915ec01-a856-4844-ab02-c94eb29dd72c_1434x1600_crop_center.png?v=1732808437");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
 }
 
-.last-col2{
-    height: 100vh;
-    background-image: url("//adanola.com/cdn/shop/files/Bottom_Mobile_2_c2e6522a-039d-4e9e-852e-1d5dd1503877_717x800.png?v=1732808491");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+.thin{
+    color: rgb(123, 123, 123);
 }
+
+
+
+.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.collection-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
